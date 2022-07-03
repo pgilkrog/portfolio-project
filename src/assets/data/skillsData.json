@@ -1,0 +1,49 @@
+{
+    "mainSkills": [
+        {
+            "icon": "vue-svgrepo-com",
+            "title": "Vue",
+            "description": ""
+          },
+          {
+            "icon": "angular-svgrepo-com",
+            "title": "Angular",
+            "description": ""
+          },
+          {
+            "icon": "html5-svgrepo-com",
+            "title": "HTML",
+            "description": "Har brug HTML i lang tid, og er kan det godt."
+          },
+          {
+            "icon": "css3-svgrepo-com",
+            "title": "CSS",
+            "description": ""
+          },
+          {
+            "icon": "c-sharp-svgrepo-com",
+            "title": "C#",
+            "description": ""
+          },
+          {
+            "icon": "vue-svgrepo-com",
+            "title": ".Net",
+            "description": ""
+          },
+          {
+            "icon": "javascript-svgrepo-com",
+            "title": "Javascript",
+            "description": ""
+          },
+          {
+            "icon": "typescript-svgrepo-com",
+            "title": "Typescript",
+            "description": ""
+          },
+          {
+            "icon": "pug-svgrepo-com",
+            "title": "Pug",
+            "description": ""
+          }
+    ]
+}

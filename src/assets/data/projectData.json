@@ -1,0 +1,147 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Vestbjerg",
+      "description": "Dette var det første semester projekt, det var et lille simpelt lagerstyringssystem. Det blev lavet i programmet BlueJ, som er et godt begynder program, til at lære programmering. \n\nDer blev ikke brugt en database, der blev i stedet brugt container klasser med en singleton. Programmets UI var ren tekst baseret.",
+      "shortDescription": "1. semesters projekt som var et simpelt lagerstyrring program lavet i BlueJ",
+      "mainImage": "s1-img2",
+      "images": [  ],
+      "technologies": [ "BlueJ", "Java", "Singleton", "Container Klasse" ],
+      "type": "Semester",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/SemesterProjekter/Vestbjerg"
+    },
+    {
+      "id": 2,
+      "name": "Jensens Transport",
+      "description": "Dette var 2. semesters projekt, som var et ruteplanlægnings program, programmeret i java og A* som algoritme. Vi lavede vores eget lille kort, hvori der var sat et par byer og veje imellem med nogle kriterier.",
+      "shortDescription": "2. semester. Et ruteplanlægnings program, som er lavet med java og A*.",
+      "mainImage": "s2-img3",
+      "images": [ ],
+      "technologies": [ "Java", "SQL", "ado.net", "A* algoritme", "Eclipse" ],
+      "type": "Semester",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/SemesterProjekter/CharlieJensenTransport"
+    },
+    {
+      "id": 3,
+      "name": "Drinkzy",
+      "description": "3. semester. En hjemmeside hvor man kunne oprette en bruger, og købe drinks fra forskellige barer. Der blev brugt en WCF til service, og en WPF til admin delen, hvor man kunne oprette barer, drinks og lignende. \n\n",
+      "shortDescription": "3. semester. En hjemmeside hvor man kunne købe drinks, fra forskellige barer.",
+      "mainImage": "s3-img3",
+      "images": [  ],
+      "technologies": [ ".NET", "C#", "WPF", "WCF", "MVC", "SQL", "HTML", "CSS" ],
+      "type": "Semester",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/SemesterProjekter/DrinkzyProject"
+    },
+    {
+      "id": 4,
+      "name": "Horror Spil",
+      "description": "4. semester. Et horror spil, som var inspireret af ps4 demoen P.T. Spillet går ud på at man, går igennem den samme gange igen og igen, og hver gang man går igennem så ændres der et eller andet. Vi undersøgte teori om gys/horror og kigge på hvilke virkemidler der var. Vi prøvede at få sat disse virkemidler ind i spillet, og kigge på hvordan det påvirker spilleren.",
+      "shortDescription": "4. semester. Et horror spil, hvor forskellige skræmme midler testes.",
+      "mainImage": "s4-img1",
+      "images": [  ],
+      "technologies": [ "Unity", "C#", "Assets", "Uncanny Valley", "Horror Teori" ],
+      "type": "Semester",
+      "github": "https://drive.google.com/drive/folders/1YluhsVlsDv3bGSGtSeh0-kK1fndDlMos"
+    },
+    {
+      "id": 5,
+      "name": "DrinKing",
+      "description": "5. semester. En hjemmeside hvor idéen var at man kunne tilmelde sig barer, klubber og lignende og få notifikationer fra dem man er tilmeldt. Der var også lavet et menukort, hvor man kunne se hvilke drinks de tilbyder. Man kunne selvfølgelig oprette sig som bruger, og logge ind.",
+      "shortDescription": "5. semester. En hjemmeside hvor man kunne tilmelde sig begivenheder.",
+      "mainImage": "s5-img1",
+      "images": [ ],
+      "technologies": [ ".NET", "C#", "Angular", "bitwise", "SQL(ado.net)", "Typescript", "HTML", "CSS", "Bootstrap" ],
+      "type": "Semester",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/SemesterProjekter/DrinkzyProject"
+    },
+    {
+      "id": 6,
+      "name": "MP3 Player",
+      "description": "En hjemmelavet musikafspiller lavet i wpf med microsoft media. Den leder efter musik filer(wma, mp3, wav, AIFF, AAC, OGG) i mappen Musik på den aktive bruger. Disse filer bliver gemt i en container class, hvorfra de kan blive hentet. \n\nHar brugt et værktøj som hed TagLib, som hjælper med at finde informationer omkring musikfiler, såsom album, kunstner, genre og lignende. Ikonerne er lavet af [www.roundicons.com] fra www.flaticon.com.",
+      "shortDescription": "En hjemmelavet musikafspiller lavet i wpf med microsoft media.",
+      "mainImage": "mp31",
+      "images": [],
+      "technologies": [ "WPF", "Media", "TagLib", "Container Klasse", "File Search", "Rekursiv metode" ],
+      "type": "Software",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/Mp3Player"
+    },
+    {
+      "id": 7,
+      "name": "2D Gangster",
+      "description": "Et lille kort 2D siderscroller spil,",
+      "shortDescription": "Et lille 2D sidescroller spil, hvor man er en gangster som skal skyde rivalerne.",
+      "mainImage": "gangsterGame2",
+      "images": [],
+      "technologies": [ "Unity", "C#" ],
+      "type": "Game",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/UnityProjects/2DAnimationProject"
+    },
+    {
+      "id": 9,
+      "name": "2D Rollespil",
+      "description": "Et simpelt 2D rollespil, hvor man kan skyde med en ildkugle og dræbe fjenderne. Når man dræber en fjende får man xp og når man samler nok xp, stiger man automatisk i level. Der er mana og helth potions som man kan samle op, og bruge dem når man har lav mana eller health. \n\nSpillet slutter aldrig, da der altid kommer nye fjender og man kan blive ved med at level op.",
+      "shortDescription": "Et 2D rollespil, som var mit første projekt i unity.",
+      "mainImage": "2droleplaying",
+      "images": ["2droleplaying.png"],
+      "technologies": [ "C#", "Unity", "Interfaces", "Ronnies Inventory" ],
+      "type": "Unity",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/Mp3Player"
+    },
+    {
+      "id": 10,
+      "name": "Augmented Reality",
+      "description": "Et tamagotchi spil , lavet i unity med vuforia(Augmented Reality. Zombien går blot tilfældigt rundt inde i sit lille bur, og den har en lille firkant den går ind i, som skulle fungere som en et slagt legetøj til den. \n\nZombien vil begynde at klage sig, når den enten bliver tørstig, sulten eller træt. Her kan du så trykke på knapperne, og den bil stoppe med at være enten tørstig, sulten eller træt.",
+      "shortDescription": "Et tamagotchi agtig spil, som er lavet i unity med vuforia(AR).",
+      "mainImage": "ARGame",
+      "images": [],
+      "technologies": [ "C#", "Unity", "Augmented Reality", "Vuforia" ],
+      "type": "Unity",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/UnityProjects/ARFirstProject"
+    },
+    {
+      "id": 11,
+      "name": "Computer Shoppen",
+      "description": "Eksamens Projektet til web-integrator uddannelsen, som var en shop.",
+      "shortDescription": "Eksamens Projektet til web-integrator uddannelsen, som jeg fik 12 for.",
+      "mainImage": "computershop",
+      "images": [ "ComputerStore/2.png", "ComputerStore/3.png", "ComputerStore/4.png" ],
+      "technologies": [ "Asp.net", "C#", "SQL", "Ajax", "HTML", "CSS" ],
+      "type": "Webintegrator",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/GamleOpgaver/ComputerStore"
+    },
+    {
+      "id": 13,
+      "name": "Portfolio Webside",
+      "description": "Dette er min portfolio hjemmeside, som jeg lavede imens jeg søgte arbejde, for at vise hvilke ting jeg kan og projekter jeg har arbejdet på. \n\nDen har ændret sig meget siden jeg startede på den, selve designet har taget en del tid før jeg var tildfreds og det kan nok ikke skjuldes jeg er ret glad for grøn og sort.",
+      "shortDescription": "Min portfolio hjemmeside, som jeg har lavet helt selv i angular.",
+      "mainImage": "portfolioWebside",
+      "images": [],
+      "technologies": [ "Angular", "Typescript", "JSON", "Material", "Responsive Design", "HTML", "CSS" ],
+      "type": "Website",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/Websider/PortfolioWebsite"
+    },
+    {
+      "id": 14,
+      "name": "Xamarin DrinkApp",
+      "description": "Dette var en app jeg lavede i Xamarin, hvori man kan indtaste navner og trykke raffle, hvor den så vil finde en vinder. Man kunne også oprette grupper, og tilføje navne til gruppen og raffle på den måde.",
+      "shortDescription": "En lille app lavet i Xamarin, hvor man kan indtaste navne of raffle.",
+      "mainImage": "drinkXamarinApp",
+      "images": [],
+      "technologies": [ ".Net", "Xamarin", "C#", "SQLite" ],
+      "type": "Software",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/DrinkApp"
+    },
+    {
+      "id": 15,
+      "name": "React Typescript",
+      "description": "En liste over medarbejdere, med forskellige oplysninger. Der kan sorteres ved at trykke på tabel-overskrifterne, og der kan søges på de forskellige oplysninger. Søgningen sker automatisk med et lille delay.  Det er lavet i React med Typescript og en json fil med medarbejderne i.",
+      "shortDescription": "Medarbejder tabel, hvor der kan filtreres. Lavet i React med Typescript.",
+      "mainImage": "ReactTypescript",
+      "images": [],
+      "technologies": [ "React", "Typescript", "JSON" ],
+      "type": "Software",
+      "github": "https://github.com/pgilkrog/Projects/tree/master/Websider/medarbejderTabel"
+    }
+  ]
+}

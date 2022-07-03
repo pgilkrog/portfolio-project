@@ -1,0 +1,14 @@
+.skills
+    padding: 110px 0 50px 0
+    display: flex
+    justify-content: center
+    @include media-breakpoint-up(md) 
+        height: 100vh
+        align-items: center
+    .skills-cards
+        display: flex
+        @include media-breakpoint-down(md) 
+            height: auto
+            flex-direction: column
+            div + div 
+                margin-top: 1.5rem

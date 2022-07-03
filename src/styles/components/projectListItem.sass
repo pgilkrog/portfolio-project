@@ -1,0 +1,46 @@
+.project-list-item
+  height: 300px
+  width: 100%
+  position: relative
+  overflow: hidden
+  object-fit: cover
+  box-shadow: $shadow
+  border-radius: 10px
+  transition: 0.5s ease-out
+
+  &:hover
+    background-color: var(--app-menu-background)
+    box-shadow: $inner-shadow
+    transition: 0.5s ease-out
+
+  .list-item
+    transition: .5s ease
+    height: 100%
+    width: 100%
+    z-index: 50
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+  .list-item-overlay
+    opacity: 1
+    transition: .5s ease
+    text-align: center
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    height: 100%
+    width: 100%
+    z-index: 100
+    position: absolute
+    background-color: rgba($white, 0)
+
+.project-list-item:hover .list-item-overlay
+  background-color: rgba(55, 56, 51, 0.95)
+  opacity: 1

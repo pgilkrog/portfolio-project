@@ -1,0 +1,68 @@
+@import './custom.scss'
+
+// VIEWS
+@import './views/home.sass'
+@import './views/contact.sass'
+@import './views/projects.sass'
+@import './views/skills.sass'
+@import './views/projectDetail.sass'
+
+// COMPONENTS  
+@import './components/navigations.sass'
+@import './components/projectListItem.sass'
+@import './components/skillCard.sass'
+@import './theme-colors.sass'
+    
+html body
+  margin: 0
+  padding: 0
+  width: 100%
+  height: 100vh
+  font-family: 'Roboto', sans-serif
+  background-color: var(--app-background-color) !important
+  color: var(--app-font-color) !important
+
+p, h1, h2, h3, h4, h5
+  padding: 0px
+  margin: 0px
+
+ul
+  margin-bottom: 0px
+
+.pointer
+    cursor: pointer
+
+.project-detail
+  h1
+    line-height: 1.5
+
+.skill-item 
+  width: 0px
+  display: none
+
+  &.open
+    display: block
+    width: 200px !important
+    height: auto
+    transition: 1s ease-out
+
+.neu-button
+  height: 48px
+  width: 48px
+  box-shadow: $shadow
+  @extend .rounded
+  @extend .m-2
+  &:hover
+    box-shadow: $inner-shadow
+
+.technologies-list
+  width: fit-content
+
+.bg-shadow
+  box-shadow: $shadow
+
+.bg-inner-shadow 
+  box-shadow: $inner-shadow
+
+.project-detail, h2
+  width: fit-content
