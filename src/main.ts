@@ -23,8 +23,8 @@ const messages = {
       contact: 'Kontakt'
     },
     skills: {
-      best: 'Bedste',
-      known: 'Bekendte',
+      best: 'Frontend',
+      known: 'Backend',
       various: 'Diverse'
     }
   },
@@ -39,8 +39,8 @@ const messages = {
       contact: 'Contact'
     },
     skills: {
-      best: 'Best',
-      known: 'Known',
+      best: 'Frontend',
+      known: 'Backend',
       various: 'Various'
     }
   }
