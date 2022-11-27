@@ -46,7 +46,9 @@ export default class Projects extends Vue {
   }
 
   sortList (): void {
-    this.sortedList = this.projects.filter(x => x.description.includes(this.searchString))
+    this.sortedList = this.projects.filter(
+      x => (x.description.includes(this.searchString) || x.technologies.filter(y => y === this.searchString))
+    )
   }
 }
 </script>

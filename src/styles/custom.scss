@@ -24,9 +24,9 @@ $danger: #fc5d5d;
 // $light: $gray-100 !default;
 // $dark: $gray-800 !default;
 
-$shadow: .3rem .3rem .6rem var(--shadow-color-2), -.2rem -.2rem .5rem var(--shadow-color-1);
+$shadow: .3rem .3rem .25rem var(--shadow-color-2), -.2rem -.2rem .25rem var(--shadow-color-1);
 // $shadow: -6px -6px 14px rgba(255, 255, 255, .7), -6px -6px 10px rgba(255, 255, 255, .5), 6px 6px 8px rgba(255, 255, 255, .075), 6px 6px 10px rgba(0, 0, 0, .15)
-$inner-shadow: inset .2rem .2rem .5rem var(--shadow-color-2), inset -.2rem -.2rem .5rem var(--shadow-color-1);
+$inner-shadow: inset .2rem .2rem .25rem var(--shadow-color-2), inset -.2rem -.2rem .25rem var(--shadow-color-1);
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';

@@ -8,13 +8,13 @@
     )
     SkillCard(
       :title="$t('skills.known')"
-      text="hdd-rack"
-      :skills='[".Net", "C#", "Umbraco", "MVC", "Angular", "Java", "MSSQL", "Firebase"]'
+      text="server"
+      :skills='[".Net", "C#", "Umbraco", "Angular", "React", "MSSQL", "Firebase"]'
     )
     SkillCard(
       :title="$t('skills.various')"
       text="briefcase"
-      :skills='["Azure", "Scrum/xp", "Dev-Ops", "React", "Unity"]'
+      :skills='["Azure", "Scrum/xp", "Dev-Ops", "Unity", "Phaser"]'
     )
 </template>
 
@@ -42,11 +42,6 @@ export default class Skills extends Vue {
         description: skillsData.mainSkills[item].description
       } as ISkill)
     }
-  }
-
-  activateSkill (skill: string): void {
-    console.log(skill)
-    this.activeSkill = skill
   }
 }
 </script>

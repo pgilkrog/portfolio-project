@@ -14,7 +14,7 @@ Vue.config.productionTip = false
 const messages = {
   dk: {
     message: {
-      software_developer: 'Software developer'
+      software_developer: 'Software udvikler'
     },
     menu: {
       home: 'Forside',
@@ -23,14 +23,14 @@ const messages = {
       contact: 'Kontakt'
     },
     skills: {
-      best: 'Frontend',
-      known: 'Backend',
+      best: 'Bedste',
+      known: 'Kendte',
       various: 'Diverse'
     }
   },
   en: {
     message: {
-      software_developer: 'Software udvikler'
+      software_developer: 'Software developer'
     },
     menu: {
       home: 'Home',
@@ -39,8 +39,8 @@ const messages = {
       contact: 'Contact'
     },
     skills: {
-      best: 'Frontend',
-      known: 'Backend',
+      best: 'Best',
+      known: 'Known',
       various: 'Various'
     }
   }
