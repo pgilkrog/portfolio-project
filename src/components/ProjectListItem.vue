@@ -1,10 +1,11 @@
 <template lang="pug">
-.project-list-item.pointer(v-on:click="goTo()")
+.project-list-item.pointer.text-center(v-on:click="goTo()")
   .list-item.rounded.p-4
-    .d-flex.justify-content-center
+    .front
       h2.text-primary
         strong {{ project.name }}
-    p.mt-4 {{project.shortDescription}}
+    .back
+      .p.mt-4 {{project.shortDescription}}
     //h4.mt-4 {{project.technologies[0] + ", " + project.technologies[1] + ", " + project.technologies[2]}}
 </template>
 

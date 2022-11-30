@@ -1,8 +1,8 @@
 <template lang="pug">
 .projects.w-100
   .project-search-wrapper.pt-4.px-4.d-flex.align-items-center
-    input.rounded(type="text" required placeholder="Search..." v-model="searchString" @input="sortList()")
-    b-icon.ml-3(icon="search" font-scale="1.5")
+    //- input.rounded(type="text" required placeholder="Search..." v-model="searchString" @input="sortList()")
+    //- b-icon.ml-3(icon="search" font-scale="1.5")
   .projects-wrapper
     ProjectListItem(
       v-for="item in sortedList"
@@ -47,7 +47,7 @@ export default class Projects extends Vue {
 
   sortList (): void {
     this.sortedList = this.projects.filter(
-      x => (x.description.includes(this.searchString) || x.technologies.filter(y => y === this.searchString))
+      x => (x.description.includes(this.searchString) || x.technologies.filter(y => y.includes(this.searchString)))
     )
   }
 }

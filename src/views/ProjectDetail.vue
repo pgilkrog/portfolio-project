@@ -3,7 +3,7 @@
   .project-detail.p-2(v-if="project !== undefined")
     .mr-4
       h1 {{project.name}}
-    .project-description.d-flex.align-items-center
+    .project-description.d-flex.align-items-center.my-4
         div.h-100
           | {{project.description}}
     .bg-inner-shadow.p-2.rounded.d-flex.justify-content-between.mt-2

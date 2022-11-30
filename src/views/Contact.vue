@@ -1,14 +1,13 @@
 <template lang="pug">
-.h-100.d-flex.align-items-center.justify-content-center
-  .contact.text-center
-    .bg-shadow(style="border-radius: 50%").m-3
-      b-avatar(
-        :src="image"
-        size="100%"
-        type="image"
-        variant="transparent"
-      )
-    .mt-4.font-weight-bold
+.h-100.d-flex.align-items-center.justify-content-center.px-3
+  .contact.text-center.bg-shadow.rounded
+    b-avatar(
+      :src="image"
+      size="50%"
+      type="image"
+      variant="light"
+    ).bg-inner-shadow.p-3
+    .icons-wrapper.mt-4.font-weight-bold.py-4
       IconAndText(title="21 53 55 74" icon="phone-fill")
       IconAndText(title="pgilkrog@gmail.com" icon="envelope-fill")
       IconAndText(title="Aarhus, Tilst" icon="geo-alt-fill")
