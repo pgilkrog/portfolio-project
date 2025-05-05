@@ -3,9 +3,8 @@
   .contact.text-center.bg-shadow.rounded
     b-avatar(
       :src="image"
-      size="50%"
+      size="250"
       type="image"
-      variant="light"
     ).bg-inner-shadow.p-3
     .icons-wrapper.mt-4.font-weight-bold.py-4
       IconAndText(title="21 53 55 74" icon="phone-fill")

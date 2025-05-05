@@ -5,7 +5,7 @@
       h2.text-primary
         strong {{ project.name }}
     .back
-      .p.mt-4 {{project.shortDescription}}
+      .p {{project.shortDescription}}
     //h4.mt-4 {{project.technologies[0] + ", " + project.technologies[1] + ", " + project.technologies[2]}}
 </template>
 
